@@ -1,0 +1,4 @@
+#!/bin/bash
+echo "Building the subcrible application!"
+g++ subscribe.cpp -o subscribe -lpaho-mqtt3c
+echo "Finished!"
